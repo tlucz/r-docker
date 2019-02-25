@@ -1,0 +1,2 @@
+FROM inwt/r-batch:3.5.1
+RUN Rscript -e "install.packages(c('devtools', 'covr'))"
